@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../images/bg-pattern-top.svg") top -500px left -200px no-repeat, url("../images/bg-pattern-bottom.svg") bottom -600px right -150px no-repeat;
   background-color: var(--dark-cyan);
   display: flex;
@@ -31,6 +31,10 @@ h1, h2 {
 
 p {
   color: var(--dark-grayish-blue);
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* Class Styling */
@@ -103,7 +107,14 @@ p {
   border-top: 1px solid var(--dark-gray);
 }
 
-.info-box p {
+
+
+.stat-num {
+  font-weight: 700;
+  color: #000;
+}
+
+.stat-desc {
   font-size: 12px;
   padding: 5px 0;
 }
